@@ -85,12 +85,24 @@
  </head>
  <body class="h-full font-body bg-gradient-to-br from-slate-50 via-gray-50 to-slate-100 text-slate-900 overflow-auto">
   <div id="app" class="min-h-full w-full"><!-- Header -->
-   <header class="text-center py-16 px-4 border-b border-slate-300 backdrop-blur-sm bg-white/80">
+   <header class="relative text-center py-16 px-4 border-b border-slate-300 backdrop-blur-sm bg-white/80"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUw2L936mUc3ozjYrTB4HWd2al-UYhJC6DQQaX77V19g_HLPCHm8_nLPG53xVLd0_Fwyg&amp;usqp=CAU" alt="Logo UFBRA" loading="lazy" class="absolute top-4 left-4 h-24 object-contain" onerror="console.error('Image failed to load:', this.src); this.style.display='none';">
     <div class="w-24 h-1 bg-gradient-to-r from-[#008043] via-[#00b7e3] to-[#f4bb22] mx-auto mb-8 rounded-full shadow-lg"></div>
     <h1 id="system-title" class="font-display text-5xl md:text-6xl font-bold tracking-tight text-slate-900 mb-3">Plantões UFBRA</h1>
-    <p id="subtitle" class="font-body text-lg tracking-wide text-slate-700 mb-4">Coordenadores de Curso - Calouros</p>
+    <p id="subtitle" class="font-body text-lg tracking-wide text-slate-700 mb-4">Coordenadores de Curso</p>
     <div class="max-w-3xl mx-auto mb-8">
-     <p class="font-body text-base text-slate-700 leading-relaxed">Plantão <span class="font-bold text-[#008043]">AO VIVO</span> da coordenação para que você possa passar em atendimento direto com o seu coordenador. <span class="text-[#f4bb22] font-semibold">Quando realizar o acesso atente-se ao curso e horário de atendimento da coordenação.</span></p>
+     <p class="font-body text-base text-slate-700 leading-relaxed mb-4">Plantão <span class="font-bold text-[#008043]">AO VIVO</span> da coordenação para que você possa passar em atendimento direto com o seu coordenador.</p>
+     <div class="bg-gradient-to-r from-blue-50 to-cyan-50 border-2 border-blue-200 rounded-xl p-5 shadow-sm">
+      <div class="flex items-start gap-3">
+       <div class="bg-blue-500 rounded-full p-2 flex-shrink-0">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+       </div>
+       <div>
+        <h4 class="font-display font-bold text-slate-900 mb-1 text-sm">Como acessar o atendimento?</h4>
+        <p class="text-sm text-slate-700 leading-relaxed"><span class="font-semibold text-blue-700">Clique no card do coordenador</span> do seu curso no horário desejado. Confirme seus dados e você será direcionado para a sala de atendimento ao vivo no Google Meet.</p>
+       </div>
+      </div>
+     </div>
     </div>
     <div class="flex flex-wrap justify-center gap-6 text-xs tracking-wider text-slate-600 font-medium"><span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full dot-segunda"></span>SEGUNDA</span> <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full dot-terca"></span>TERÇA</span> <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full dot-quarta"></span>QUARTA</span> <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full dot-quinta"></span>QUINTA</span>
     </div>
@@ -181,7 +193,7 @@
          <p class="text-xs text-slate-500 font-semibold mb-2">Segunda-feira</p>
          <div class="flex items-center gap-2 text-[#008043] text-sm font-medium">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg> 19h00 às 20h00
+          </svg> 19h00 ��s 20h00
          </div>
         </div>
        </div>
@@ -483,7 +495,7 @@
   <script>
     const defaultConfig = {
       system_title: 'Plantões UFBRA',
-      subtitle: 'Coordenadores de Curso - Calouros'
+      subtitle: 'Coordenadores de Curso'
     };
 
     function toggleShift(element) {
@@ -572,5 +584,5 @@
       });
     }
   </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c7af3a41309c504',t:'MTc3MDA0ODU1My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c8b10259380f1ce',t:'MTc3MDIxNzQ5My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
